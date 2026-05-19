@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sherpur Doctor Info | শেরপুরের সেরা ডাক্তার তালিকা ও অ্যাপয়েন্টমেন্ট</title>
+<meta name="description" content="শেরপুরের সেরা বিশেষজ্ঞ ডাক্তারদের তালিকা, চেম্বার সময়, অ্যাপয়েন্টমেন্ট বুকিং। মেডিসিন, নিউরোলজি, গাইনি, শিশু রোগ, কার্ডিওলজি বিশেষজ্ঞ।">
+<meta name="keywords" content="sherpur doctor, শেরপুর ডাক্তার, শেরপুর হাসপাতাল, Sherpur Doctor Info, sherpur specialist">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Sherpur Doctor Info">
+<meta name="geo.region" content="BD-B">
+<meta name="geo.placename" content="Sherpur, Bangladesh">
+<link rel="canonical" href="https://sherpur-doctor-info.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sherpur-doctor-info.netlify.app/">
+<meta property="og:title" content="Sherpur Doctor Info | শেরপুরের সেরা ডাক্তার">
+<meta property="og:description" content="শেরপুরের বিশেষজ্ঞ ডাক্তারদের তালিকা, চেম্বার সময় ও অ্যাপয়েন্টমেন্ট বুকিং।">
+<meta property="og:locale" content="bn_BD">
+<meta property="og:site_name" content="Sherpur Doctor Info">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sherpur Doctor Info | শেরপুরের সেরা ডাক্তার">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "প্রযুক্তি হসপিটাল",
+  "description": "শেরপুরের বিশেষজ্ঞ ডাক্তার ডিরেক্টরি ও অ্যাপয়েন্টমেন্ট সেবা",
+  "telephone": "+8801725900093",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "জেলা হাসপাতাল রোড, নারায়ণপুর",
+    "addressLocality": "Sherpur",
+    "addressCountry": "BD"
+  },
+  "medicalSpecialty": ["মেডিসিন","নিউরোলজি","কার্ডিওলজি","গাইনি","শিশু রোগ","অর্থোপেডিক্স","সার্জারি"]
+}
+</script>
+
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --green: #0d7a5f; --gl: #12a07c; --gd: #085c47;
+  --gold: #e8a020; --gold2: #f5c842;
+  --blue: #1a5fa8; --blue2: #2176d4;
+  --bg: #f0f7f4; --text: #1a2e25; --tl: #4a6b5a;
+  --bdr: #c5e0d5; --red: #e03030;
+  --sh: 0 4px 20px rgba(13,122,95,0.13);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Hind Siliguri', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+
+nav { background: var(--gd); padding: 8px 14px; display: flex; align-items: center; justify-content: space-between; min-height: 60px; box-shadow: 0 3px 16px rgba(0,0,0,0.22); position: sticky; top: 0; z-index: 100; flex-wrap: wrap; gap: 6px; }
+.nlogo { display: flex; align-items: center; gap: 9px; flex-shrink: 0; }
+.nlogo .li { width: 40px; height: 40px; background: var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
+.nlogo span { color: #fff; font-size: 15px; font-weight: 700; font-family: 'Noto Serif Bengali', serif; }
+.nlinks { display: flex; gap: 3px; align-items: center; flex-wrap: wrap; }
+.nlinks button { background: transparent; border: none; color: #c8eee2; font-family: 'Hind Siliguri', sans-serif; font-size: 13px; padding: 6px 10px; border-radius: 8px; cursor: pointer; transition: all .2s; }
+.nlinks button:hover, .nlinks button.active { background: var(--gl); color: #fff; }
+
+.admin-hidden-trigger { position: fixed; bottom: 18px; right: 18px; width: 44px; height: 44px; border-radius: 50%; background: var(--gd); border: 2px solid var(--gold); color: var(--gold); font-size: 18px; cursor: pointer; box-shadow: 0 4px 16px rgba(0,0,0,0.25); display: none; align-items: center; justify-content: center; z-index: 99; transition: all .3s; }
+.admin-hidden-trigger:hover { background: var(--gold); color: var(--gd); }
+
+.hero { background: linear-gradient(135deg, var(--gd) 0%, var(--green) 55%, var(--gl) 100%); padding: 44px 18px 34px; text-align: center; position: relative; overflow: hidden; }
+.hero::before { content: ''; position: absolute; top: -60px; right: -80px; width: 280px; height: 280px; background: rgba(255,255,255,0.05); border-radius: 50%; }
+.hero h1 { color: #fff; font-size: 28px; font-family: 'Noto Serif Bengali', serif; margin-bottom: 6px; }
+.hero p { color: #b8ead8; font-size: 14px; margin-bottom: 22px; }
+.hstats { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.sbox { background: rgba(255,255,255,0.13); border: 1px solid rgba(255,255,255,0.2); border-radius: 13px; padding: 11px 18px; text-align: center; }
+.sbox .num { font-size: 22px; font-weight: 700; color: var(--gold2); }
+.sbox .lbl { font-size: 12px; color: #cff5e8; }
+
+.page { display: none; padding: 20px 13px 40px; max-width: 920px; margin: 0 auto; }
+.page.active { display: block; }
+.stitle { font-family: 'Noto Serif Bengali', serif; font-size: 20px; color: var(--gd); margin-bottom: 15px; border-left: 5px solid var(--gold); padding-left: 11px; }
+
+.firebase-banner { background: #fff3cd; border: 1px solid #ffc107; border-radius: 10px; padding: 10px 14px; margin-bottom: 14px; font-size: 13px; color: #856404; display: none; }
+.firebase-banner.show { display: block; }
+
+.filter-bar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.fbtn { padding: 6px 14px; border-radius: 20px; border: 1.5px solid var(--bdr); background: #fff; color: var(--tl); font-family: 'Hind Siliguri', sans-serif; font-size: 13px; cursor: pointer; transition: all .2s; }
+.fbtn:hover, .fbtn.active { background: var(--green); color: #fff; border-color: var(--green); }
+
+.dgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); gap: 15px; }
+.dcard { background: #fff; border-radius: 16px; box-shadow: var(--sh); overflow: hidden; transition: transform .2s, box-shadow .2s; border: 1px solid var(--bdr); }
+.dcard:hover { transform: translateY(-4px); box-shadow: 0 10px 32px rgba(13,122,95,0.2); }
+.dtop { background: linear-gradient(135deg, var(--blue), var(--blue2)); padding: 18px; text-align: center; position: relative; }
+.dav { width: 72px; height: 72px; border-radius: 50%; margin: 0 auto 9px; border: 3px solid rgba(255,255,255,0.5); overflow: hidden; background: #fff; display: flex; align-items: center; justify-content: center; }
+.dav .ini { font-size: 18px; font-weight: 700; color: var(--blue); font-family: 'Noto Serif Bengali', serif; line-height: 1; }
+.dname { color: #fff; font-size: 14px; font-weight: 700; line-height: 1.3; }
+.dspec { color: #b8d8f8; font-size: 12px; margin-top: 4px; }
+.dbody { padding: 11px 13px; }
+.di { font-size: 12px; color: var(--tl); margin-bottom: 4px; display: flex; align-items: flex-start; gap: 5px; line-height: 1.4; }
+.dbk { width: 100%; margin-top: 10px; padding: 9px; background: var(--blue); color: #fff; border: none; border-radius: 9px; font-family: 'Hind Siliguri', sans-serif; font-size: 13px; font-weight: 600; cursor: pointer; transition: background .2s; }
+.dbk:hover { background: var(--gd); }
+.dept-badge { position: absolute; top: 8px; right: 8px; background: rgba(255,255,255,0.2); color: #fff; font-size: 10px; padding: 2px 8px; border-radius: 10px; }
+
+.plist { display: flex; flex-direction: column; gap: 15px; }
+.pcard { background: #fff; border-radius: 16px; box-shadow: var(--sh); border: 1px solid var(--bdr); overflow: hidden; }
+.phdr { padding: 13px 15px 9px; display: flex; align-items: center; gap: 9px; }
+.pav { width: 40px; height: 40px; border-radius: 50%; background: var(--green); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 17px; font-weight: 700; flex-shrink: 0; }
+.pauthor { font-weight: 700; font-size: 14px; color: var(--gd); }
+.pdate { font-size: 11px; color: #8aaa98; }
+.pimg { width: 100%; max-height: 300px; object-fit: cover; display: block; }
+.pbody { padding: 12px 15px; }
+.ptxt { font-size: 14px; line-height: 1.7; color: var(--text); }
+.pacts { padding: 9px 15px; border-top: 1px solid var(--bdr); display: flex; gap: 12px; }
+.pabtn { background: none; border: none; color: var(--tl); font-family: 'Hind Siliguri', sans-serif; font-size: 13px; cursor: pointer; display: flex; align-items: center; gap: 4px; padding: 4px 8px; border-radius: 8px; transition: all .2s; }
+.pabtn:hover { background: var(--bg); color: var(--green); }
+.pabtn.liked { color: var(--red); }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 11px; background: #d8f5ec; color: var(--gd); font-weight: 600; }
+
+.aform { background: #fff; border-radius: 16px; padding: 20px; box-shadow: var(--sh); border: 1px solid var(--bdr); }
+.fg { margin-bottom: 13px; }
+.fg label { display: block; font-size: 13px; font-weight: 600; color: var(--gd); margin-bottom: 5px; }
+.fg input, .fg select, .fg textarea { width: 100%; padding: 10px 13px; border: 1.5px solid var(--bdr); border-radius: 9px; font-family: 'Hind Siliguri', sans-serif; font-size: 14px; background: var(--bg); color: var(--text); outline: none; transition: border .2s; }
+.fg input:focus, .fg select:focus, .fg textarea:focus { border-color: var(--green); background: #fff; }
+.fg input.error, .fg select.error, .fg textarea.error { border-color: var(--red); background: #fff8f8; }
+.fg textarea { resize: vertical; min-height: 72px; }
+.sbtn { width: 100%; padding: 12px; background: var(--green); color: #fff; border: none; border-radius: 11px; font-size: 15px; font-family: 'Hind Siliguri', sans-serif; font-weight: 700; cursor: pointer; transition: background .2s; }
+.sbtn:hover { background: var(--gd); }
+
+.ccard { background: #fff; border-radius: 16px; padding: 20px; box-shadow: var(--sh); border: 1px solid var(--bdr); margin-bottom: 14px; }
+.ci { display: flex; align-items: flex-start; gap: 11px; margin-bottom: 12px; }
+.cico { font-size: 20px; margin-top: 2px; }
+.clbl { font-size: 12px; color: var(--tl); }
+.cval { font-size: 15px; font-weight: 600; }
+
+.awrap { background: #1a2e25; border-radius: 16px; padding: 20px; }
+.atabs { display: flex; gap: 7px; margin-bottom: 18px; flex-wrap: wrap; }
+.atab { padding: 7px 14px; border-radius: 9px; background: rgba(255,255,255,0.08); color: #b8ead8; border: 1px solid rgba(255,255,255,0.15); font-family: 'Hind Siliguri', sans-serif; font-size: 13px; cursor: pointer; transition: all .2s; }
+.atab.active, .atab:hover { background: var(--green); color: #fff; border-color: var(--green); }
+.asec { display: none; }
+.asec.active { display: block; }
+.acard { background: rgba(255,255,255,0.07); border-radius: 13px; padding: 17px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 13px; }
+.acard label { color: #b8ead8; font-size: 13px; font-weight: 600; display: block; margin-bottom: 5px; }
+.acard input, .acard select, .acard textarea { width: 100%; padding: 9px 12px; background: rgba(255,255,255,0.1); border: 1.5px solid rgba(255,255,255,0.2); border-radius: 9px; color: #fff; font-family: 'Hind Siliguri', sans-serif; font-size: 13px; outline: none; margin-bottom: 10px; }
+.acard input:focus, .acard textarea:focus, .acard select:focus { border-color: var(--gold); }
+.acard textarea { min-height: 80px; resize: vertical; }
+.acard select option { background: #1a2e25; color: #fff; }
+.abp { padding: 9px 18px; background: var(--gold); color: var(--gd); border: none; border-radius: 9px; font-weight: 700; font-size: 13px; font-family: 'Hind Siliguri', sans-serif; cursor: pointer; transition: background .2s; }
+.abp:hover { background: var(--gold2); }
+.ali { background: rgba(255,255,255,0.06); border-radius: 11px; padding: 12px 14px; margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between; border: 1px solid rgba(255,255,255,0.1); gap: 8px; }
+.aln { color: #fff; font-weight: 600; font-size: 13px; }
+.als { color: #7abaaa; font-size: 12px; }
+.adel { background: rgba(224,48,48,0.2); border: 1px solid rgba(224,48,48,0.4); color: #ff7878; padding: 5px 11px; border-radius: 7px; cursor: pointer; font-family: 'Hind Siliguri', sans-serif; font-size: 12px; transition: all .2s; white-space: nowrap; flex-shrink: 0; }
+.adel:hover { background: rgba(224,48,48,0.4); }
+
+.lov { position: fixed; inset: 0; background: rgba(0,0,0,0.75); z-index: 200; display: none; align-items: center; justify-content: center; backdrop-filter: blur(4px); }
+.lov.open { display: flex; }
+.lbox { background: #fff; border-radius: 18px; padding: 28px 24px; width: 100%; max-width: 330px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+.lbox h2 { font-size: 20px; color: var(--gd); font-family: 'Noto Serif Bengali', serif; margin-bottom: 5px; }
+.lbox p { font-size: 12px; color: var(--tl); margin-bottom: 18px; }
+.lbox input { width: 100%; padding: 10px 13px; border: 1.5px solid var(--bdr); border-radius: 9px; font-family: 'Hind Siliguri', sans-serif; font-size: 14px; background: var(--bg); color: var(--text); outline: none; margin-bottom: 10px; }
+.lbox input:focus { border-color: var(--green); background: #fff; }
+.lerr { color: var(--red); font-size: 12px; margin-bottom: 8px; display: none; }
+.lcnl { background: none; border: 1px solid var(--bdr); color: var(--tl); padding: 8px 15px; border-radius: 9px; cursor: pointer; font-size: 13px; font-family: 'Hind Siliguri', sans-serif; margin-left: 8px; }
+
+.mov { position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 150; display: none; align-items: center; justify-content: center; backdrop-filter: blur(3px); }
+.mov.open { display: flex; }
+.mbox { background: #fff; border-radius: 18px; padding: 22px 18px; width: 100%; max-width: 400px; box-shadow: 0 20px 60px rgba(0,0,0,0.25); max-height: 90vh; overflow-y: auto; }
+.mbox h3 { font-size: 17px; color: var(--gd); font-family: 'Noto Serif Bengali', serif; margin-bottom: 13px; }
+.cmod { float: right; background: none; border: none; font-size: 21px; cursor: pointer; color: #aaa; }
+
+.toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%) translateY(80px); background: var(--gd); color: #fff; padding: 10px 20px; border-radius: 11px; font-size: 13px; box-shadow: 0 6px 24px rgba(0,0,0,0.2); z-index: 300; transition: transform .3s; white-space: nowrap; }
+.toast.show { transform: translateX(-50%) translateY(0); }
+
+.loader { display: inline-block; width: 16px; height: 16px; border: 3px solid rgba(255,255,255,0.3); border-top-color: #fff; border-radius: 50%; animation: spin .7s linear infinite; vertical-align: middle; margin-right: 6px; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.status-tag { display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.status-firebase { background: #d4edda; color: #155724; }
+.status-local { background: #fff3cd; color: #856404; }
+
+@media (max-width: 600px) {
+  .hero h1 { font-size: 21px; }
+  .nlogo span { font-size: 12px; }
+  .dgrid { grid-template-columns: 1fr 1fr; }
+  .nlinks button { font-size: 11px; padding: 5px 7px; }
+}
+@media (max-width: 400px) {
+  .dgrid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nlogo" id="logoArea">
+    <div class="li">🏥</div>
+    <span>Sherpur Doctor Info<br><small style="font-size:10px;font-weight:400;opacity:.85;">শেরপুর ডক্টর ইনফো</small></span>
+  </div>
+  <div class="nlinks">
+    <button class="active" onclick="showPage('home',this)">হোম</button>
+    <button onclick="showPage('doctors',this)">ডাক্তার</button>
+    <button onclick="showPage('posts',this)">পোস্ট</button>
+    <button onclick="showPage('appointment',this)">বুকিং</button>
+    <button onclick="showPage('contact',this)">যোগাযোগ</button>
+  </div>
+</nav>
+
+<button class="admin-hidden-trigger" id="adminFloatBtn" onclick="openAdminLogin()" title="অ্যাডমিন">⚙</button>
+
+<div class="hero" id="heroSection">
+  <h1>প্রযুক্তি হসপিটাল</h1>
+  <p>সঠিক তথ্য, সুস্থ জীবন | জেলা হাসপাতাল রোড, নারায়ণপুর, শেরপুর | 📞 01725-900093</p>
+  <div class="hstats">
+    <div class="sbox"><div class="num" id="statDocs">0</div><div class="lbl">ডাক্তার</div></div>
+    <div class="sbox"><div class="num" id="statPosts">0</div><div class="lbl">পোস্ট</div></div>
+    <div class="sbox"><div class="num" id="statAppt">0</div><div class="lbl">আজকের বুকিং</div></div>
+  </div>
+</div>
+
+<!-- HOME -->
+<div class="page active" id="page-home">
+  <div class="firebase-banner" id="firebaseBanner">
+    ⚠️ <strong>Firebase সংযুক্ত নেই।</strong> ডেটা এখন শুধু এই browser-এ সেভ হচ্ছে।
+  </div>
+  <h2 class="stitle">সাম্প্রতিক পোস্ট</h2>
+  <div id="homePostList" class="plist"></div>
+  <br>
+  <h2 class="stitle">আমাদের বিশেষজ্ঞ ডাক্তারগণ</h2>
+  <div id="homeDoctorGrid" class="dgrid"></div>
+</div>
+
+<!-- DOCTORS -->
+<div class="page" id="page-doctors">
+  <h2 class="stitle">সকল ডাক্তার</h2>
+  <div class="filter-bar" id="filterBar"></div>
+  <div id="doctorGrid" class="dgrid"></div>
+</div>
+
+<!-- POSTS -->
+<div class="page" id="page-posts">
+  <h2 class="stitle">স্বাস্থ্য পোস্ট ও নিউজ</h2>
+  <div id="postList" class="plist"></div>
+</div>
+
+<!-- APPOINTMENT -->
+<div class="page" id="page-appointment">
+  <h2 class="stitle">অ্যাপয়েন্টমেন্ট বুকিং</h2>
+  <div class="aform">
+    <div class="fg"><label>আপনার নাম *</label><input type="text" id="apptName" placeholder="পূর্ণ নাম লিখুন"></div>
+    <div class="fg"><label>মোবাইল নম্বর *</label><input type="tel" id="apptPhone" placeholder="01XXXXXXXXX" maxlength="11"></div>
+    <div class="fg"><label>ডাক্তার বেছে নিন *</label><select id="apptDoctor"></select></div>
+    <div class="fg"><label>সমস্যার বিবরণ</label><textarea id="apptNote" placeholder="আপনার স্বাস্থ্য সমস্যা..."></textarea></div>
+    <button class="sbtn" onclick="bookAppointment()">✅ বুকিং নিশ্চিত করুন</button>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="page" id="page-contact">
+  <h2 class="stitle">হাসপাতালের তথ্য</h2>
+  <div class="ccard">
+    <div class="ci"><span class="cico">🏥</span><div><div class="clbl">হাসপাতালের নাম</div><div class="cval">প্রযুক্তি হসপিটাল</div></div></div>
+    <div class="ci"><span class="cico">📍</span><div><div class="clbl">ঠিকানা</div><div class="cval">জেলা হাসপাতাল রোড, নারায়ণপুর, শেরপুর</div></div></div>
+    <div class="ci"><span class="cico">📞</span><div><div class="clbl">ফোন</div><div class="cval">01725-900093</div></div></div>
+    <div class="ci"><span class="cico">🚨</span><div><div class="clbl">জরুরি সেবা</div><div class="cval">২৪ ঘণ্টা উপলব্ধ</div></div></div>
+  </div>
+  <div class="ccard" style="background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;">
+    <p style="font-size:17px;font-weight:700;margin-bottom:6px;">📱 এখনই যোগাযোগ করুন</p>
+    <p style="font-size:13px;opacity:.85;">অ্যাপয়েন্টমেন্ট ও তথ্যের জন্য কল করুন</p>
+    <p style="font-size:26px;font-weight:700;margin-top:10px;">📞 01725-900093</p>
+  </div>
+</div>
+
+<!-- ADMIN -->
+<div class="page" id="page-admin">
+  <div class="awrap">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:8px;">
+      <h2 class="stitle" style="color:var(--gold2);border-color:var(--gold);margin-bottom:0;">🔧 অ্যাডমিন প্যানেল</h2>
+      <span id="dbStatusTag" class="status-tag status-local">🔴 LocalStorage</span>
+    </div>
+    <div class="atabs">
+      <button class="atab active" onclick="aTab('addPost',this)">📝 পোস্ট যোগ</button>
+      <button class="atab" onclick="aTab('managePosts',this)">📋 পোস্ট তালিকা</button>
+      <button class="atab" onclick="aTab('addDoctor',this)">👨‍⚕️ ডাক্তার যোগ</button>
+      <button class="atab" onclick="aTab('manageDoctors',this)">👥 ডাক্তার তালিকা</button>
+      <button class="atab" onclick="aTab('appointments',this)">📅 বুকিং তালিকা</button>
+      <button class="atab" onclick="aTab('settings',this)">⚙ সেটিংস</button>
+    </div>
+
+    <div class="asec active" id="admin-addPost">
+      <div class="acard">
+        <label>পোস্টের শিরোনাম</label>
+        <input type="text" id="nptitle" placeholder="পোস্ট শিরোনাম...">
+        <label>বিষয়বস্তু</label>
+        <textarea id="nptext" placeholder="পোস্টের বিস্তারিত লিখুন..."></textarea>
+        <label>পোস্টের ধরন</label>
+        <select id="nptype">
+          <option value="health">স্বাস্থ্য পরামর্শ</option>
+          <option value="news">হাসপাতাল নিউজ</option>
+          <option value="awareness">সচেতনতা</option>
+          <option value="doctor">ডাক্তার পরিচিতি</option>
+        </select>
+        <label>ইমোজি আইকন</label>
+        <input type="text" id="npicon" value="🏥" placeholder="যেমন: 💊 🩺">
+        <label>ছবির লিংক (ঐচ্ছিক)</label>
+        <input type="text" id="npimgurl" placeholder="https://example.com/image.jpg">
+        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:4px;">
+          <button class="abp" id="addPostBtn" onclick="addPost()">✅ পোস্ট প্রকাশ করুন</button>
+          <button style="padding:9px 14px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:#aaa;border-radius:9px;cursor:pointer;font-size:13px;font-family:'Hind Siliguri',sans-serif;" onclick="clearPostForm()">🗑 ক্লিয়ার</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="asec" id="admin-managePosts"><div id="adminPostsList"></div></div>
+
+    <div class="asec" id="admin-addDoctor">
+      <div class="acard">
+        <label>ডাক্তারের নাম</label>
+        <input type="text" id="ndname" placeholder="ডা. নাম...">
+        <label>বিশেষজ্ঞতা</label>
+        <input type="text" id="ndspec" placeholder="যেমন: মেডিসিন বিশেষজ্ঞ">
+        <label>বিভাগ</label>
+        <select id="nddept">
+          <option>মেডিসিন</option><option>নিউরোলজি</option><option>অর্থোপেডিক্স</option>
+          <option>সাইকিয়াট্রিক</option><option>নাক-কান-গলা</option><option>গ্যাস্ট্রোলিভার</option>
+          <option>ইউরোলজি</option><option>চর্মরোগ</option><option>গাইনি</option>
+          <option>শিশু রোগ</option><option>কার্ডিওলজি</option><option>সার্জারি</option>
+        </select>
+        <label>ডিগ্রি</label>
+        <input type="text" id="nddeg" placeholder="MBBS, MD...">
+        <label>চেম্বার সময়</label>
+        <input type="text" id="ndtime" placeholder="প্রতি বৃহস্পতিবার বিকাল ৩টা – রাত ৮টা">
+        <label>মোবাইল</label>
+        <input type="text" id="ndphone" placeholder="01XXXXXXXXX">
+        <button class="abp" id="addDoctorBtn" onclick="addDoctor()">✅ ডাক্তার যোগ করুন</button>
+      </div>
+    </div>
+
+    <div class="asec" id="admin-manageDoctors"><div id="adminDoctorsList"></div></div>
+
+    <div class="asec" id="admin-appointments">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
+        <span style="color:#b8ead8;font-size:13px;">সকল বুকিং তালিকা</span>
+        <button class="adel" onclick="clearAllAppts()">🗑 সব মুছুন</button>
+      </div>
+      <div id="adminApptList"></div>
+    </div>
+
+    <div class="asec" id="admin-settings">
+      <div class="acard">
+        <h4 style="color:var(--gold2);margin-bottom:14px;font-size:15px;">🔐 পাসওয়ার্ড পরিবর্তন</h4>
+        <label>বর্তমান পাসওয়ার্ড</label>
+        <input type="password" id="pwCurrent" placeholder="বর্তমান পাসওয়ার্ড">
+        <label>নতুন পাসওয়ার্ড</label>
+        <input type="password" id="pwNew" placeholder="কমপক্ষে ৬ অক্ষর">
+        <label>নিশ্চিত করুন</label>
+        <input type="password" id="pwConfirm" placeholder="আবার লিখুন">
+        <div id="pwMsg" style="font-size:13px;margin-bottom:10px;display:none;"></div>
+        <button class="abp" onclick="changePassword()">🔒 পাসওয়ার্ড পরিবর্তন করুন</button>
+      </div>
+      <div class="acard">
+        <h4 style="color:var(--gold2);margin-bottom:8px;font-size:14px;">🔔 WhatsApp নোটিফিকেশন</h4>
+        <p style="color:#7abaaa;font-size:13px;margin-bottom:10px;">বুকিং হলে অটো WhatsApp পাঠানো হয়: <strong style="color:#4ade80;">01725-900093</strong></p>
+        <label>WhatsApp নম্বর পরিবর্তন করুন</label>
+        <input type="text" id="waNumber" placeholder="8801XXXXXXXXX (country code সহ)">
+        <button class="abp" onclick="saveWaNumber()">💾 সেভ করুন</button>
+      </div>
+      <div class="acard">
+        <h4 style="color:var(--gold2);margin-bottom:8px;font-size:14px;">🗄️ ডেটাবেস স্ট্যাটাস</h4>
+        <div id="adminDbStatus" style="color:#7abaaa;font-size:13px;line-height:1.8;"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LOGIN OVERLAY -->
+<div class="lov" id="loginOverlay">
+  <div class="lbox">
+    <h2>🔐 অ্যাডমিন লগইন</h2>
+    <p>শুধুমাত্র অনুমোদিত ব্যক্তি প্রবেশ করতে পারবেন</p>
+    <input type="text" id="adminUser" placeholder="ব্যবহারকারীর নাম">
+    <input type="password" id="adminPass" placeholder="পাসওয়ার্ড" onkeydown="if(event.key==='Enter')doLogin()">
+    <div class="lerr" id="loginError">❌ ভুল তথ্য! আবার চেষ্টা করুন</div>
+    <button class="sbtn" onclick="doLogin()">লগইন করুন</button>
+    <button class="lcnl" onclick="closeLogin()">বাতিল</button>
+  </div>
+</div>
+
+<!-- BOOKING MODAL -->
+<div class="mov" id="bookingModal">
+  <div class="mbox">
+    <button class="cmod" onclick="closeMov('bookingModal')">✕</button>
+    <h3 id="bookingDocName">অ্যাপয়েন্টমেন্ট</h3>
+    <div class="fg"><label>আপনার নাম *</label><input type="text" id="mName" placeholder="পূর্ণ নাম"></div>
+    <div class="fg"><label>মোবাইল *</label><input type="tel" id="mPhone" placeholder="01XXXXXXXXX" maxlength="11"></div>
+    <div class="fg"><label>সমস্যা</label><textarea id="mNote" placeholder="সমস্যার বিবরণ..."></textarea></div>
+    <button class="sbtn" onclick="bookFromModal()">✅ বুকিং নিশ্চিত করুন</button>
+  </div>
+</div>
+
+<!-- SHARE MODAL -->
+<div class="mov" id="shareModal">
+  <div class="mbox" style="max-width:380px;">
+    <button class="cmod" onclick="closeMov('shareModal')">✕</button>
+    <h3 style="font-size:16px;margin-bottom:12px;">🔗 পোস্ট শেয়ার করুন</h3>
+    <div style="background:var(--bg);border-radius:11px;padding:12px 14px;margin-bottom:14px;border:1px solid var(--bdr);">
+      <div style="font-weight:700;font-size:14px;color:var(--gd);margin-bottom:4px;" id="sharePostTitle"></div>
+      <div style="font-size:12px;color:var(--tl);margin-bottom:4px;" id="sharePostDate"></div>
+      <div style="font-size:13px;color:var(--text);line-height:1.6;max-height:70px;overflow:hidden;" id="sharePostText"></div>
+    </div>
+    <p style="font-size:12px;color:var(--tl);margin-bottom:10px;font-weight:600;">কোথায় শেয়ার করবেন?</p>
+    <div style="display:flex;gap:10px;margin-bottom:14px;">
+      <button id="shareWA" style="flex:1;padding:11px 8px;background:#25D366;color:#fff;border:none;border-radius:11px;font-size:13px;font-family:'Hind Siliguri',sans-serif;font-weight:700;cursor:pointer;">📱 WhatsApp</button>
+      <button id="shareFB" style="flex:1;padding:11px 8px;background:#1877F2;color:#fff;border:none;border-radius:11px;font-size:13px;font-family:'Hind Siliguri',sans-serif;font-weight:700;cursor:pointer;">📘 Facebook</button>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;">
+      <input id="shareCopyText" style="flex:1;padding:9px 11px;border:1.5px solid var(--bdr);border-radius:9px;font-size:12px;background:var(--bg);color:var(--text);font-family:'Hind Siliguri',sans-serif;outline:none;" readonly>
+      <button id="shareCopyBtn" style="padding:9px 13px;background:var(--green);color:#fff;border:none;border-radius:9px;font-size:12px;font-family:'Hind Siliguri',sans-serif;font-weight:700;cursor:pointer;white-space:nowrap;">📋 কপি</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- ══════════════════════════════════════════════
+     FIX ১: Firebase এখন async ভাবে লোড হয়
+     সব JS এক জায়গায় — module/non-module conflict নেই
+     ══════════════════════════════════════════════ -->
+<script type="module">
+// ── Firebase SDK import ──
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import {
+  getFirestore, collection, getDocs, addDoc, deleteDoc,
+  doc, onSnapshot, query, orderBy, serverTimestamp,
+  updateDoc, increment
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+// ── Firebase Config ──
+const firebaseConfig = {
+  apiKey: "AIzaSyCr06IhIxmvdboAr2BwYRKCpoMNNUjUfXE",
+  authDomain: "sherpur-doctor-info.firebaseapp.com",
+  projectId: "sherpur-doctor-info",
+  storageBucket: "sherpur-doctor-info.firebasestorage.app",
+  messagingSenderId: "211185689738",
+  appId: "1:211185689738:web:6182485d38fc6090507973"
+};
+
+// ── Credentials (localStorage) ──
+(function initCreds(){
+  if(!localStorage.getItem('sdAdminUser')) localStorage.setItem('sdAdminUser','admin');
+  if(!localStorage.getItem('sdAdminPass')) localStorage.setItem('sdAdminPass','sherpur2026');
+  if(!localStorage.getItem('sdWaNumber'))  localStorage.setItem('sdWaNumber','8801725900093');
+})();
+
+// ── Default Doctors ──
+const DEFAULT_DOCTORS = [
+  {id:1,name:'ডা. মাঈন উদ্দিন আকন্দ',spec:'অর্থোপেডিক্স বিশেষজ্ঞ ও সার্জন',dept:'অর্থোপেডিক্স',deg:'MBBS, BCS (স্বাস্থ্য), D-Ortho | জামালপুর সদর হাসপাতাল',time:'প্রতি মঙ্গলবার | বিকাল ৪টা – রাত ৮টা',phone:'01725-900093'},
+  {id:2,name:'ডাঃ মোঃ যোবায়ের আহমাদ (সজিব)',spec:'গ্যাস্ট্রোলিভার বিশেষজ্ঞ',dept:'গ্যাস্ট্রোলিভার',deg:'MBBS, BCS, FCPS (মেডিসিন), M.D (হেপাটোলজি) | ময়মনসিংহ মেডিকেল কলেজ',time:'প্রতি শনিবার | বিকাল ৩টা – রাত ৮টা',phone:'01725-900093'},
+  {id:3,name:'ডাঃ মোশতাক আহমেদ মোড়ল',spec:'হৃদরোগ, মেডিসিন ও বক্ষব্যাধি বিশেষজ্ঞ',dept:'কার্ডিওলজি',deg:'MBBS, BCS, D-Card, F.C.P.S (কার্ডিওলজি) | ময়মনসিংহ মেডিকেল কলেজ',time:'প্রতি শুক্রবার | সকাল ১০টা – রাত ৮টা',phone:'01725-900093'},
+  {id:4,name:'ডাঃ যায়িদ মোঃ আদনান শামীম',spec:'মেডিসিন বিশেষজ্ঞ | গ্যাস্ট্রোলিভার ও বক্ষব্যাধি',dept:'মেডিসিন',deg:'MBBS, BCS, M.C.P.S, F.C.P.S (মেডিসিন) | ময়মনসিংহ মেডিকেল কলেজ',time:'প্রতিদিন (বৃহস্পতিবার বন্ধ) | বিকাল ৩টা – রাত ৯টা',phone:'01725-900093'},
+  {id:5,name:'ডাঃ আকলেছুর রহমান খান তুহিন',spec:'সার্জারি বিশেষজ্ঞ ও জেনারেল সার্জন',dept:'সার্জারি',deg:'MBBS, BCS, M.S (জেনারেল সার্জারি) | ময়মনসিংহ মেডিকেল কলেজ',time:'প্রতিদিন (শনিবার বন্ধ) | বিকাল ৩টা – রাত ৯টা',phone:'01725-900093'},
+  {id:6,name:'ডাঃ মোঃ মাজেদুর রহমান মাজেদ',spec:'ইউরোলজি ও এন্ড্রোলজি বিশেষজ্ঞ ও সার্জন',dept:'ইউরোলজি',deg:'MBBS, BCS, M.S (ইউরোলজি), F.C.P.S (সার্জারি) | ময়মনসিংহ মেডিকেল কলেজ',time:'প্রতি বৃহস্পতিবার | বিকাল ৩টা – রাত ৯টা',phone:'01725-900093'},
+  {id:7,name:'ডাঃ নাজমুন নাহার নুর দিবা',spec:'গাইনী প্রসূতি ও বন্ধ্যাত্ব বিশেষজ্ঞ',dept:'গাইনি',deg:'M.B.B.S, M.C.G.P, D.M.U | বিএমডিসি রেজিঃ এ-১২৩৩১২',time:'প্রতিদিন | দুপুর ২টা – রাত ৮টা',phone:'01725-900093 (আশরাফুল)'},
+  {id:8,name:'ডা. হাবিবুল্লাহ সরকার',spec:'মেডিসিন ও নিউরোমেডিসিন বিশেষজ্ঞ',dept:'নিউরোলজি',deg:'MBBS, BCS, M.D (নিউরোলজি) | ময়মনসিংহ মেডিকেল কলেজ',time:'প্রতি বৃহস্পতিবার | বিকাল ৩টা – রাত ৮টা',phone:'01725-900093'},
+  {id:9,name:'ডাঃ মোঃ আরিফুল ইসলাম',spec:'নবজাতক, শিশু ও কিশোর রোগ বিশেষজ্ঞ',dept:'শিশু রোগ',deg:'M.B.B.S, BCS, D.C.S.H, M.R.C.P (ইংল্যান্ড) | শেরপুর জেলা হাসপাতাল',time:'প্রতিদিন | দুপুর ২টা – রাত ৮টা',phone:'01725-900093 (আশরাফুল)'},
+  {id:10,name:'ডা. রবিউল ইসলাম রনি',spec:'নাক, কান, গলা বিশেষজ্ঞ ও হেড নেক সার্জন',dept:'নাক-কান-গলা',deg:'MBBS, D.L.O (ENT) | কুমুদিনী উইমেন্স মেডিকেল কলেজ',time:'প্রতি সোম, মঙ্গল, বুধ ও শুক্রবার | দুপুর ২টা – রাত ৮টা',phone:'01725-900093'},
+  {id:11,name:'ডা. মোঃ রাজন খান',spec:'নিউরোমেডিসিন ও ডায়াবেটিস বিশেষজ্ঞ',dept:'নিউরোলজি',deg:'MBBS, CCCD, FCPS (মেডিসিন), M.D (নিউরোলজি) | ময়মনসিংহ মেডিকেল কলেজ',time:'প্রতি সোমবার | বিকাল ৩টা – রাত ৮টা',phone:'01725-900093'},
+  {id:12,name:'ডা. তোফাজ্জল হোসেন',spec:'চর্ম ও যৌন, এলার্জি ও লেজার কসমেটিক বিশেষজ্ঞ',dept:'চর্মরোগ',deg:'M.B.B.S, DDV | বিএমডিসি রেজিঃ নং-৩৩৪৯৩',time:'প্রতি রবিবার ও বুধবার | সকাল ১১টা – বিকাল ৪টা',phone:'01725-900093'},
+  {id:13,name:'ডাঃ মোফাজ্জল হোসেন বিদুৎ',spec:'মানসিক ও মনোরোগ বিশেষজ্ঞ',dept:'সাইকিয়াট্রিক',deg:'MBBS, BCS, M.C.P.S, F.C.P.S (সাইকিয়াট্রিক) | শেরপুর জেলা হাসপাতাল',time:'প্রতি শুক্রবার | সকাল ১১টা – বিকাল ৪টা',phone:'01725-900093'},
+  {id:14,name:'ডাঃ মোঃ মনিরুজ্জামান মনির',spec:'হাড়-জোড়া, বাত-ব্যথা, মেরুদণ্ড বিশেষজ্ঞ ও সার্জন',dept:'অর্থোপেডিক্স',deg:'MBBS, BCS, FCPS (অর্থো), D-Ortho | জাতীয় অর্থোপেডিক হাসপাতাল, ঢাকা',time:'প্রতি রবি বিকাল ৫টা থেকে | প্রতি শুক্রবার সকাল ১১টা থেকে',phone:'01725-900093'},
+];
+
+// ── State ──
+let doctors = [...DEFAULT_DOCTORS];
+let posts = JSON.parse(localStorage.getItem('sdPosts') || '[]');
+let appointments = JSON.parse(localStorage.getItem('sdAppts') || '[]');
+let extraDoctors = JSON.parse(localStorage.getItem('sdDoctors') || '[]');
+extraDoctors.forEach(d => { if(!doctors.find(x=>x.id===d.id)) doctors.push(d); });
+
+const todayStr = new Date().toISOString().slice(0,10);
+let todayAppt = appointments.filter(a => a.addedDate === todayStr).length;
+let currentBookingDoc = null;
+let isLoggedIn = false;
+
+// Firebase state
+let db = null;
+let firebaseReady = false;
+let fbPosts = null;
+let fbAppts = null;
+let fbExtraDoctors = null;
+let todayApptCount = 0;
+
+// ── Firebase init ──
+async function initFirebase() {
+  try {
+    const app = initializeApp(firebaseConfig);
+    db = getFirestore(app);
+
+    // Test connection with a simple getDocs
+    await getDocs(collection(db, "posts"));
+
+    firebaseReady = true;
+    console.log('✅ Firebase connected!');
+    updateDbStatus();
+
+    // Posts real-time listener
+    onSnapshot(collection(db, "posts"), (snap) => {
+      fbPosts = snap.docs.map(d => ({...d.data(), _fbId: d.id}));
+      fbPosts.sort((a,b)=> (b.createdAt?.seconds||0)-(a.createdAt?.seconds||0));
+      renderHome();
+      if(document.getElementById('page-posts').classList.contains('active')) renderPosts();
+      if(document.getElementById('page-admin').classList.contains('active')) renderAdminPosts();
+    }, (err) => { console.error('Posts listener error:', err); });
+
+    // Appointments real-time listener
+    onSnapshot(collection(db, "appointments"), (snap) => {
+      fbAppts = snap.docs.map(d => ({...d.data(), _fbId: d.id}));
+      fbAppts.sort((a,b)=> (b.createdAt?.seconds||0)-(a.createdAt?.seconds||0));
+      todayApptCount = fbAppts.filter(a => a.addedDate === todayStr).length;
+      renderHome();
+      if(document.getElementById('page-admin').classList.contains('active')) renderAdminAppts();
+    }, (err) => { console.error('Appointments listener error:', err); });
+
+    // Extra doctors real-time listener
+    onSnapshot(collection(db, "extra_doctors"), (snap) => {
+      fbExtraDoctors = snap.docs.map(d => ({...d.data(), _fbId: d.id}));
+      doctors = [...DEFAULT_DOCTORS];
+      fbExtraDoctors.forEach(d => {
+        if(!doctors.find(x => x.id === d.id)) doctors.push(d);
+      });
+      renderHome();
+      if(document.getElementById('page-admin').classList.contains('active')) renderAdminDoctors();
+    }, (err) => { console.error('Doctors listener error:', err); });
+
+  } catch(e) {
+    console.warn('Firebase init failed:', e);
+    firebaseReady = false;
+    updateDbStatus();
+  }
+}
+initFirebase();
+
+// ── Helpers ──
+function escHtml(str){
+  if(!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+function getInitial(name) {
+  const clean = name.replace(/ডা\.|ডাঃ|ডা\s|ডাঃ\s/g,'').trim();
+  const m = clean.match(/[\u0980-\u09FF]/);
+  if(m) return m[0];
+  const e = clean.match(/[A-Za-z]/);
+  if(e) return e[0].toUpperCase();
+  return '?';
+}
+const deptColor = {
+  'নিউরোলজি':'#1a5fa8','অর্থোপেডিক্স':'#0d6e4a','সাইকিয়াট্রিক':'#6a3d9a',
+  'নাক-কান-গলা':'#c75000','গ্যাস্ট্রোলিভার':'#2e7d32','ইউরোলজি':'#00695c',
+  'চর্মরোগ':'#ad1457','গাইনি':'#00838f','শিশু রোগ':'#ef6c00',
+  'মেডিসিন':'#1565c0','কার্ডিওলজি':'#b71c1c','সার্জারি':'#37474f'
+};
+function deptBg(dept){ return deptColor[dept]||'#1a5fa8'; }
+function getActivePosts() { return fbPosts !== null ? fbPosts : posts; }
+function getActiveAppts() { return fbAppts !== null ? fbAppts : appointments; }
+function getTodayCount() { return fbAppts !== null ? todayApptCount : todayAppt; }
+function savePosts(){ localStorage.setItem('sdPosts', JSON.stringify(posts)); }
+function saveAppts(){ localStorage.setItem('sdAppts', JSON.stringify(appointments)); }
+
+// ── Card Templates ──
+function docCard(d) {
+  const bg = deptBg(d.dept);
+  const ini = getInitial(d.name);
+  return `<div class="dcard">
+    <div class="dtop" style="background:linear-gradient(135deg,${bg},${bg}cc);">
+      <div class="dept-badge">${escHtml(d.dept)}</div>
+      <div class="dav"><span class="ini">${ini}</span></div>
+      <div class="dname">${escHtml(d.name)}</div>
+      <div class="dspec">${escHtml(d.spec)}</div>
+    </div>
+    <div class="dbody">
+      <div class="di">🎓 ${escHtml(d.deg)}</div>
+      <div class="di">🕐 ${escHtml(d.time)}</div>
+      <div class="di">📞 ${escHtml(d.phone)}</div>
+      <button class="dbk" onclick="openBookingModal('${d._fbId||d.id}')">📅 অ্যাপয়েন্টমেন্ট নিন</button>
+    </div>
+  </div>`;
+}
+
+function postCard(p) {
+  const tl = p.type==='health'?'স্বাস্থ্য':p.type==='news'?'নিউজ':p.type==='doctor'?'ডাক্তার':'সচেতনতা';
+  const pid = p._fbId || p.id;
+  return `<div class="pcard">
+    <div class="phdr">
+      <div class="pav">${escHtml(p.icon||'🏥')}</div>
+      <div>
+        <div class="pauthor">প্রযুক্তি হসপিটাল</div>
+        <div class="pdate">${escHtml(p.date||'')} · <span class="badge">${tl}</span></div>
+      </div>
+    </div>
+    ${p.imgSrc?`<img class="pimg" src="${escHtml(p.imgSrc)}" alt="${escHtml(p.title)}" onerror="this.style.display='none'" loading="lazy">`:''}
+    <div class="pbody">
+      <strong style="display:block;margin-bottom:5px;font-size:15px;color:#0d5c45;">${escHtml(p.title)}</strong>
+      <p class="ptxt">${escHtml(p.text||'').replace(/\n/g,'<br>')}</p>
+    </div>
+    <div class="pacts">
+      <button class="pabtn ${p.liked?'liked':''}" onclick="toggleLike('${pid}')">
+        ${p.liked?'❤️':'🤍'} পছন্দ (${p.likes||0})
+      </button>
+      <button class="pabtn" onclick="sharePost('${pid}')">🔗 শেয়ার</button>
+    </div>
+  </div>`;
+}
+
+// ── Render Functions ──
+function renderHome() {
+  const activePosts = getActivePosts();
+  document.getElementById('homePostList').innerHTML = activePosts.length
+    ? activePosts.slice(0,2).map(p=>postCard(p)).join('')
+    : '<p style="color:var(--tl);padding:16px;text-align:center;">এখনো কোনো পোস্ট নেই</p>';
+  document.getElementById('homeDoctorGrid').innerHTML = doctors.slice(0,6).map(d=>docCard(d)).join('');
+  document.getElementById('statDocs').textContent = doctors.length;
+  document.getElementById('statPosts').textContent = activePosts.length;
+  document.getElementById('statAppt').textContent = getTodayCount();
+  updateDbStatus();
+}
+function renderPosts() {
+  const activePosts = getActivePosts();
+  document.getElementById('postList').innerHTML = activePosts.length
+    ? activePosts.map(p=>postCard(p)).join('')
+    : '<p style="color:var(--tl);padding:20px;text-align:center;">এখনো কোনো পোস্ট নেই</p>';
+}
+function renderDoctors(filter='সকল') {
+  const list = filter==='সকল' ? doctors : doctors.filter(d=>d.dept===filter);
+  document.getElementById('doctorGrid').innerHTML = list.map(d=>docCard(d)).join('');
+}
+function buildFilter() {
+  const depts = ['সকল', ...new Set(doctors.map(d=>d.dept))];
+  document.getElementById('filterBar').innerHTML = depts.map((d,i)=>
+    `<button class="fbtn ${i===0?'active':''}" onclick="filterDoc('${escHtml(d)}',this)">${escHtml(d)}</button>`
+  ).join('');
+}
+
+// ── DB Status ──
+function updateDbStatus() {
+  const tag = document.getElementById('dbStatusTag');
+  const info = document.getElementById('adminDbStatus');
+  if(firebaseReady) {
+    tag.className = 'status-tag status-firebase';
+    tag.textContent = '🟢 Firebase Connected';
+    document.getElementById('firebaseBanner').classList.remove('show');
+    if(info) info.innerHTML = `✅ Firebase Firestore সংযুক্ত।<br>সব device এ sync হচ্ছে।<br>পোস্ট: ${(fbPosts||[]).length} | বুকিং: ${(fbAppts||[]).length}`;
+  } else {
+    tag.className = 'status-tag status-local';
+    tag.textContent = '🔴 LocalStorage';
+    document.getElementById('firebaseBanner').classList.add('show');
+    if(info) info.innerHTML = `⚠️ Firebase সংযুক্ত নেই।<br>ডেটা শুধু এই browser-এ সেভ হচ্ছে।`;
+  }
+}
+
+// ── Nav ──
+window.showPage = function(name, btn) {
+  if(name==='admin'&&!isLoggedIn){ openAdminLogin(); return; }
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nlinks button').forEach(b=>b.classList.remove('active'));
+  document.getElementById('page-'+name).classList.add('active');
+  if(btn) btn.classList.add('active');
+  document.getElementById('heroSection').style.display = (name==='home')?'block':'none';
+  if(name==='admin') renderAdminLists();
+  if(name==='doctors'){ renderDoctors(); buildFilter(); }
+  if(name==='posts') renderPosts();
+  if(name==='appointment') populateDoctorSelect();
+  if(name==='home') renderHome();
+};
+window.filterDoc = function(dept, btn) {
+  document.querySelectorAll('.fbtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderDoctors(dept);
+};
+
+// ── Like ──
+window.toggleLike = async function(pid) {
+  if(firebaseReady && fbPosts) {
+    const p = fbPosts.find(x => x._fbId == pid);
+    if(!p) return;
+    const newLiked = !p.liked;
+    try {
+      await updateDoc(doc(db, 'posts', p._fbId), {
+        liked: newLiked,
+        likes: increment(newLiked ? 1 : -1)
+      });
+    } catch(e) { console.error(e); }
+  } else {
+    const p = posts.find(x => String(x.id) == String(pid));
+    if(!p) return;
+    p.liked = !p.liked;
+    p.likes = (p.likes||0) + (p.liked ? 1 : -1);
+    savePosts(); renderPosts(); renderHome();
+  }
+};
+
+// ── Share ──
+window.sharePost = function(pid) {
+  const activePosts = getActivePosts();
+  const p = activePosts.find(x => (x._fbId||String(x.id)) == String(pid));
+  if(!p) return;
+  const siteUrl = 'https://sherpur-doctor-info.netlify.app/';
+  const shareText = `${p.icon||'🏥'} ${p.title}\n\n${p.text}\n\n— প্রযুক্তি হসপিটাল, শেরপুর\n📞 01725-900093\n🌐 ${siteUrl}`;
+  if(navigator.share){ navigator.share({title:p.title,text:shareText,url:siteUrl}).catch(()=>{}); return; }
+  document.getElementById('sharePostTitle').textContent = (p.icon||'') + ' ' + p.title;
+  document.getElementById('sharePostText').textContent = p.text;
+  document.getElementById('sharePostDate').textContent = p.date||'';
+  document.getElementById('shareCopyText').value = shareText;
+  document.getElementById('shareWA').onclick = () => window.open('https://wa.me/?text='+encodeURIComponent(shareText),'_blank');
+  document.getElementById('shareFB').onclick = () => window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(siteUrl),'_blank');
+  document.getElementById('shareCopyBtn').onclick = () => {
+    navigator.clipboard.writeText(shareText).then(()=>{
+      document.getElementById('shareCopyBtn').textContent='✅ কপি হয়েছে!';
+      setTimeout(()=>document.getElementById('shareCopyBtn').textContent='📋 কপি',2000);
+    }).catch(()=>{ document.getElementById('shareCopyText').select(); document.execCommand('copy'); showToast('📋 কপি হয়েছে!'); });
+  };
+  document.getElementById('shareModal').classList.add('open');
+};
+
+// ── Booking ──
+function isValidPhone(p){ return /^01[3-9]\d{8}$/.test(p.replace(/[-\s]/g,'')); }
+function sendWhatsApp(serial, name, phone, doctorName, dept, note) {
+  const waNum = localStorage.getItem('sdWaNumber') || '8801725900093';
+  const txt = `🏥 নতুন অ্যাপয়েন্টমেন্ট!\n\nসিরিয়াল: ${serial}\nনাম: ${name}\nমোবাইল: ${phone}\nডাক্তার: ${doctorName}\nবিভাগ: ${dept}\nসমস্যা: ${note||'উল্লেখ নেই'}\nতারিখ: ${new Date().toLocaleDateString('bn-BD')}`;
+  window.open('https://wa.me/'+waNum+'?text='+encodeURIComponent(txt), '_blank');
+}
+async function saveApptToDb(apptData) {
+  if(firebaseReady) {
+    try {
+      await addDoc(collection(db, 'appointments'), {...apptData, createdAt: serverTimestamp()});
+      return true;
+    } catch(e) { console.error('Appt save error:', e); }
+  }
+  appointments.push(apptData);
+  saveAppts();
+  return false;
+}
+function populateDoctorSelect() {
+  document.getElementById('apptDoctor').innerHTML = doctors.map(d=>
+    `<option value="${d._fbId||d.id}">${escHtml(d.name)} — ${escHtml(d.spec)}</option>`
+  ).join('');
+}
+window.bookAppointment = async function() {
+  const n = document.getElementById('apptName').value.trim();
+  const p = document.getElementById('apptPhone').value.trim();
+  const di = document.getElementById('apptDoctor').value;
+  const nt = document.getElementById('apptNote').value.trim();
+  ['apptName','apptPhone','apptDoctor'].forEach(id=>document.getElementById(id).classList.remove('error'));
+  let ok = true;
+  if(!n){ document.getElementById('apptName').classList.add('error'); ok=false; }
+  if(!isValidPhone(p)){ document.getElementById('apptPhone').classList.add('error'); ok=false; }
+  if(!ok){ showToast('❗ সঠিক নাম ও ১১ ডিজিটের মোবাইল নম্বর দিন'); return; }
+  const docObj = doctors.find(d => (d._fbId||String(d.id)) == String(di));
+  if(!docObj){ showToast('❗ ডাক্তার নির্বাচন করুন'); return; }
+  todayAppt++;
+  const serial = getTodayCount() + 1;
+  const apptData = {serial, name:n, phone:p, doctor:docObj.name, dept:docObj.dept, note:nt, addedDate:todayStr};
+  await saveApptToDb(apptData);
+  ['apptName','apptPhone','apptNote'].forEach(i=>{ const el=document.getElementById(i); if(el) el.value=''; });
+  renderHome();
+  showToast('✅ বুকিং সফল! সিরিয়াল: '+serial);
+  sendWhatsApp(serial, n, p, docObj.name, docObj.dept, nt);
+};
+window.openBookingModal = function(docIdOrFbId) {
+  currentBookingDoc = doctors.find(d => (d._fbId||String(d.id)) == String(docIdOrFbId));
+  if(!currentBookingDoc) return;
+  document.getElementById('bookingDocName').textContent = '📅 ' + currentBookingDoc.name;
+  document.getElementById('bookingModal').classList.add('open');
+};
+window.bookFromModal = async function() {
+  const n = document.getElementById('mName').value.trim();
+  const p = document.getElementById('mPhone').value.trim();
+  const nt = document.getElementById('mNote').value.trim();
+  ['mName','mPhone'].forEach(id=>document.getElementById(id).classList.remove('error'));
+  let ok = true;
+  if(!n){ document.getElementById('mName').classList.add('error'); ok=false; }
+  if(!isValidPhone(p)){ document.getElementById('mPhone').classList.add('error'); ok=false; }
+  if(!ok){ showToast('❗ সঠিক নাম ও ১১ ডিজিটের মোবাইল নম্বর দিন'); return; }
+  todayAppt++;
+  const serial = getTodayCount() + 1;
+  const apptData = {serial, name:n, phone:p, doctor:currentBookingDoc.name, dept:currentBookingDoc.dept, note:nt, addedDate:todayStr};
+  await saveApptToDb(apptData);
+  closeMov('bookingModal');
+  ['mName','mPhone','mNote'].forEach(i=>{ document.getElementById(i).value=''; });
+  renderHome();
+  showToast('✅ বুকিং সফল! সিরিয়াল: '+serial);
+  sendWhatsApp(serial, n, p, currentBookingDoc.name, currentBookingDoc.dept, nt);
+};
+
+// ── Add Post ──
+window.addPost = async function() {
+  const title = document.getElementById('nptitle').value.trim();
+  const text  = document.getElementById('nptext').value.trim();
+  const type  = document.getElementById('nptype').value;
+  const icon  = document.getElementById('npicon').value.trim() || '🏥';
+  const imgSrc = document.getElementById('npimgurl').value.trim() || null;
+  if(!title||!text){ showToast('❗ শিরোনাম ও বিষয়বস্তু লিখুন'); return; }
+  const months = ['জানুয়ারি','ফেব্রুয়ারি','মার্চ','এপ্রিল','মে','জুন','জুলাই','আগস্ট','সেপ্টেম্বর','অক্টোবর','নভেম্বর','ডিসেম্বর'];
+  const now = new Date();
+  const dateStr = now.getDate()+' '+months[now.getMonth()]+' '+now.getFullYear();
+  const btn = document.getElementById('addPostBtn');
+  btn.innerHTML = '<span class="loader"></span> সেভ হচ্ছে...';
+  btn.disabled = true;
+  console.log('Firebase ready:', firebaseReady, 'DB:', db);
+  try {
+    if(firebaseReady && db) {
+      const docRef = await addDoc(collection(db,'posts'), {title, text, type, icon, imgSrc: imgSrc||null, date:dateStr, likes:0, liked:false, createdAt:serverTimestamp()});
+      console.log('Post saved with ID:', docRef.id);
+      showToast('✅ পোস্ট Firebase-এ প্রকাশিত!');
+    } else {
+      console.warn('Firebase not ready, saving to localStorage');
+      posts.unshift({id:Date.now(),title,text,type,icon,imgSrc,date:dateStr,likes:0,liked:false});
+      savePosts(); renderHome();
+      showToast('✅ পোস্ট প্রকাশিত (LocalStorage)');
+    }
+  } catch(e) {
+    console.error('addPost error:', e.code, e.message);
+    posts.unshift({id:Date.now(),title,text,type,icon,imgSrc,date:dateStr,likes:0,liked:false});
+    savePosts(); renderHome();
+    showToast('⚠️ Error: '+e.message);
+  } finally {
+    clearPostForm();
+    btn.innerHTML = '✅ পোস্ট প্রকাশ করুন';
+    btn.disabled = false;
+  }
+};
+window.clearPostForm = function() {
+  ['nptitle','nptext','npimgurl'].forEach(i=>{ const el=document.getElementById(i); if(el) el.value=''; });
+  const ic = document.getElementById('npicon'); if(ic) ic.value='🏥';
+};
+
+// ── Add Doctor ──
+window.addDoctor = async function() {
+  const name  = document.getElementById('ndname').value.trim();
+  const spec  = document.getElementById('ndspec').value.trim();
+  const dept  = document.getElementById('nddept').value;
+  const deg   = document.getElementById('nddeg').value.trim();
+  const time  = document.getElementById('ndtime').value.trim();
+  const phone = document.getElementById('ndphone').value.trim();
+  if(!name||!spec){ showToast('❗ নাম ও বিশেষজ্ঞতা দিন'); return; }
+  const nd = {id:Date.now(), name, spec, dept, deg, time, phone};
+  const btn = document.getElementById('addDoctorBtn');
+  btn.innerHTML = '<span class="loader"></span> সেভ হচ্ছে...';
+  btn.disabled = true;
+  try {
+    if(firebaseReady) {
+      await addDoc(collection(db,'extra_doctors'), {...nd, createdAt:serverTimestamp()});
+      showToast('✅ ডাক্তার Firebase-এ যোগ হয়েছে!');
+    } else {
+      doctors.push(nd); extraDoctors.push(nd);
+      localStorage.setItem('sdDoctors', JSON.stringify(extraDoctors));
+      renderHome();
+      showToast('✅ ডাক্তার যোগ হয়েছে!');
+    }
+  } catch(e) {
+    console.error(e);
+    doctors.push(nd); extraDoctors.push(nd);
+    localStorage.setItem('sdDoctors', JSON.stringify(extraDoctors));
+    renderHome();
+    showToast('⚠️ Firebase error! LocalStorage-এ সেভ হয়েছে');
+  } finally {
+    ['ndname','ndspec','nddeg','ndtime','ndphone'].forEach(i=>document.getElementById(i).value='');
+    btn.innerHTML = '✅ ডাক্তার যোগ করুন';
+    btn.disabled = false;
+  }
+};
+
+// ── FIX ৩: Delete — সঠিক Firebase _fbId দিয়ে delete ──
+window.deletePost = async function(fbId) {
+  if(!confirm('এই পোস্টটি মুছে ফেলবেন?')) return;
+  if(firebaseReady && fbPosts) {
+    try {
+      await deleteDoc(doc(db, 'posts', String(fbId)));
+      showToast('🗑 পোস্ট মুছে ফেলা হয়েছে');
+      return;
+    } catch(e) { console.error('Delete post error:', e); }
+  }
+  posts = posts.filter(p => String(p.id) !== String(fbId));
+  savePosts(); renderAdminPosts(); renderHome();
+  showToast('🗑 পোস্ট মুছে ফেলা হয়েছে');
+};
+window.deleteDoctor = async function(fbId) {
+  if(!confirm('এই ডাক্তারকে বাদ দেবেন?')) return;
+  if(firebaseReady && fbExtraDoctors) {
+    const target = fbExtraDoctors.find(d => d._fbId === String(fbId));
+    if(target) {
+      try {
+        await deleteDoc(doc(db, 'extra_doctors', target._fbId));
+        showToast('🗑 ডাক্তার মুছে ফেলা হয়েছে');
+        return;
+      } catch(e) { console.error('Delete doctor error:', e); }
+    }
+  }
+  doctors = doctors.filter(d => String(d.id) !== String(fbId));
+  extraDoctors = extraDoctors.filter(d => String(d.id) !== String(fbId));
+  localStorage.setItem('sdDoctors', JSON.stringify(extraDoctors));
+  renderAdminDoctors(); renderHome();
+  showToast('🗑 ডাক্তার মুছে ফেলা হয়েছে');
+};
+window.clearAllAppts = function() {
+  if(!confirm('সকল বুকিং মুছে ফেলবেন?')) return;
+  appointments = []; todayAppt = 0;
+  saveAppts(); renderAdminAppts(); renderHome();
+  showToast('🗑 সকল বুকিং মুছে ফেলা হয়েছে');
+};
+
+// ── Admin Render ──
+function renderAdminPosts() {
+  const activePosts = getActivePosts();
+  document.getElementById('adminPostsList').innerHTML = activePosts.length
+    ? activePosts.map(p=>`<div class="ali"><div><div class="aln">${escHtml(p.icon||'')} ${escHtml(p.title)}</div><div class="als">${escHtml(p.date||'')} · ❤️${p.likes||0}</div></div><button class="adel" onclick="deletePost('${p._fbId||p.id}')">🗑 মুছুন</button></div>`).join('')
+    : '<p style="color:#7abaaa;padding:16px;">কোনো পোস্ট নেই</p>';
+}
+function renderAdminDoctors() {
+  document.getElementById('adminDoctorsList').innerHTML = doctors.map(d=>{
+    const isExtra = !!d._fbId || extraDoctors.find(x=>x.id===d.id);
+    return `<div class="ali"><div><div class="aln">${escHtml(d.name)}</div><div class="als">${escHtml(d.dept)} · ${escHtml(d.spec)}</div></div>${isExtra?`<button class="adel" onclick="deleteDoctor('${d._fbId||d.id}')">🗑 মুছুন</button>`:'<span style="color:#7abaaa;font-size:11px;">ডিফল্ট</span>'}</div>`;
+  }).join('');
+}
+function renderAdminAppts() {
+  const activeAppts = getActiveAppts();
+  document.getElementById('adminApptList').innerHTML = activeAppts.length
+    ? activeAppts.map(a=>`<div class="ali"><div><div class="aln">${escHtml(a.name)} — ${escHtml(a.doctor)}</div><div class="als">📞 ${escHtml(a.phone)}${a.note?' · '+escHtml(a.note):''} <span style="color:var(--gold2);">সিরিয়াল: ${a.serial||'?'}</span></div></div></div>`).join('')
+    : '<p style="color:#7abaaa;padding:16px;">কোনো বুকিং নেই</p>';
+}
+function renderAdminLists() {
+  renderAdminPosts(); renderAdminDoctors(); renderAdminAppts(); updateDbStatus();
+  const waInp = document.getElementById('waNumber');
+  if(waInp) waInp.value = localStorage.getItem('sdWaNumber') || '8801725900093';
+}
+
+// ── Admin Auth ──
+window.openAdminLogin = function(){ document.getElementById('loginOverlay').classList.add('open'); };
+window.closeLogin = function(){
+  document.getElementById('loginOverlay').classList.remove('open');
+  document.getElementById('loginError').style.display='none';
+};
+window.doLogin = function(){
+  const u = document.getElementById('adminUser').value;
+  const p = document.getElementById('adminPass').value;
+  if(u===localStorage.getItem('sdAdminUser') && p===localStorage.getItem('sdAdminPass')){
+    isLoggedIn=true; closeLogin(); showPage('admin',null); showToast('✅ অ্যাডমিন প্যানেলে স্বাগতম!');
+  } else {
+    document.getElementById('loginError').style.display='block';
+  }
+};
+window.changePassword = function(){
+  const cur=document.getElementById('pwCurrent').value;
+  const nw=document.getElementById('pwNew').value;
+  const cf=document.getElementById('pwConfirm').value;
+  const msg=document.getElementById('pwMsg');
+  msg.style.display='block';
+  if(cur!==localStorage.getItem('sdAdminPass')){ msg.style.color='#ff7878'; msg.textContent='❌ বর্তমান পাসওয়ার্ড ভুল!'; return; }
+  if(nw.length<6){ msg.style.color='#ff7878'; msg.textContent='❌ কমপক্ষে ৬ অক্ষর হতে হবে!'; return; }
+  if(nw!==cf){ msg.style.color='#ff7878'; msg.textContent='❌ পাসওয়ার্ড মিলছে না!'; return; }
+  localStorage.setItem('sdAdminPass', nw);
+  msg.style.color='#4ade80'; msg.textContent='✅ পাসওয়ার্ড পরিবর্তন সফল!';
+  ['pwCurrent','pwNew','pwConfirm'].forEach(i=>document.getElementById(i).value='');
+  setTimeout(()=>{ msg.style.display='none'; },3000);
+};
+window.saveWaNumber = function() {
+  const v = document.getElementById('waNumber').value.trim();
+  if(!v){ showToast('❗ নম্বর দিন'); return; }
+  localStorage.setItem('sdWaNumber', v);
+  showToast('✅ WhatsApp নম্বর সেভ হয়েছে: '+v);
+};
+
+// ── Admin Tabs ──
+window.aTab = function(name, btn) {
+  document.querySelectorAll('.atab').forEach(t=>t.classList.remove('active'));
+  document.querySelectorAll('.asec').forEach(s=>s.classList.remove('active'));
+  document.getElementById('admin-'+name).classList.add('active');
+  if(btn) btn.classList.add('active');
+  if(name==='managePosts') renderAdminPosts();
+  if(name==='manageDoctors') renderAdminDoctors();
+  if(name==='appointments') renderAdminAppts();
+  if(name==='settings') updateDbStatus();
+};
+
+// ── Modal ──
+window.closeMov = function(id){ document.getElementById(id).classList.remove('open'); };
+
+// ── Toast ──
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),3500);
+}
+
+// ── লোগো দীর্ঘ-ক্লিকে অ্যাডমিন বোতাম ──
+let logoHoldTimer = null;
+const logoArea = document.getElementById('logoArea');
+function showAdminBtn() {
+  const btn = document.getElementById('adminFloatBtn');
+  btn.style.display = 'flex';
+  showToast('🔑 অ্যাডমিন বোতাম সক্রিয়');
+}
+logoArea.addEventListener('mousedown', () => { logoHoldTimer = setTimeout(showAdminBtn, 5000); });
+logoArea.addEventListener('mouseup', () => clearTimeout(logoHoldTimer));
+logoArea.addEventListener('mouseleave', () => clearTimeout(logoHoldTimer));
+logoArea.addEventListener('touchstart', () => { logoHoldTimer = setTimeout(showAdminBtn, 5000); }, {passive:true});
+logoArea.addEventListener('touchend', () => clearTimeout(logoHoldTimer));
+
+// Konami code: ↑↑↓↓←→←→BA
+const konamiSeq = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+let konamiIdx = 0;
+document.addEventListener('keydown', (e) => {
+  if(e.key === konamiSeq[konamiIdx]) { konamiIdx++; if(konamiIdx === konamiSeq.length){ konamiIdx=0; showAdminBtn(); } }
+  else konamiIdx = 0;
+});
+
+// ── Init ──
+renderHome();
+
+</script>
+
+<!-- Katrix AI Chatbot -->
+<script src="https://katrix.app/widget.js" data-bot-key="Od07tn5cUhsm1mKWi1sckRXLvsW3pQjUiNfgJuK1zzRQ8oupOc5dRJDfjv3enBsz" defer></script>
+</body>
+</html>
